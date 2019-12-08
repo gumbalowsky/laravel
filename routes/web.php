@@ -17,5 +17,6 @@ Route::get('/', function () {
 
 //Route::get('/post/{imie}', ['uses' =>'PostsController@podajimie']);
 
-Route::resource('posts', 'PostsController');
+// Route::resource('posts', 'PostsController');
 Route::get('/contact', 'PostsController@showView');
+Route::get('/post/{id}', 'PostsController@showPost');

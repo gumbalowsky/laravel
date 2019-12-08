@@ -6,18 +6,23 @@ use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
-    public function index($id)
-    {
+    // public function index($id)
+    // {
+    //
+    // }
+    //
+    // public function show($id)
+    // {
+    //   return view('imiona', ['id' => $id]);
+    // }
+    //
+    // public function showView()
+    // {
+    //   return view('contact');
+    // }
 
-    }
-
-    public function show($id)
+    public function showPost($id)
     {
-      return view('imiona', ['id' => $id]);
-    }
-
-    public function showView()
-    {
-      return view('contact');
+      return view('post')->with('id',$id);
     }
 }

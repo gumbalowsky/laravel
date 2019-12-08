@@ -1,4 +1,4 @@
-@extends('post.add')
+@extends('layouts.default')
 @section('head')
 <link rel="stylesheet" href="{{asset('assets/fonts/font-awesome.min.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">

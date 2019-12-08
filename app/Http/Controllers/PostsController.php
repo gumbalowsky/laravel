@@ -10,8 +10,14 @@ class PostsController extends Controller
     {
 
     }
+
     public function show($id)
     {
       return view('imiona', ['id' => $id]);
+    }
+
+    public function showView()
+    {
+      return view('contact');
     }
 }

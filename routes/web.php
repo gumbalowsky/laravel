@@ -15,4 +15,4 @@
 //     return view('welcome');
 // });
 
-Route::get('/post/{$imie}', ['uses' =>'PostsController@podajimie']);
+Route::get('/post/{imie}', ['uses' =>'PostsController@podajimie']);

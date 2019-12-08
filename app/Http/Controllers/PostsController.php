@@ -16,6 +16,6 @@ class PostsController extends Controller
     // }
     public function show($id)
     {
-      return echo('pokazuje ' . $id);
+      return view('imiona', ['id' => $id]);
     }
 }

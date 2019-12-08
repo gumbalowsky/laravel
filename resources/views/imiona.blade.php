@@ -1,5 +1,5 @@
 <html>
   <body>
-    <h1>Witaj, {[ $imie ]}!</h1>
+    <h1>Witaj, {{ $data['imie'] }}!</h1>
   </body>
 </html>

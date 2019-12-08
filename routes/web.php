@@ -15,4 +15,6 @@
 //     return view('welcome');
 // });
 
-Route::get('/post', 'PostsController@index');
+Route::get('/post', function () {
+     return view('welcome');
+});

@@ -13,6 +13,6 @@ class PostsController extends Controller
     public function podajimie($imie)
     {
       $data['imie'] = $imie;
-      return View::make('imiona', $data);
+      return view('imiona', $data);
     }
 }

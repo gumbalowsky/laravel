@@ -10,10 +10,6 @@ class PostsController extends Controller
     {
 
     }
-    // public function podajimie($imie)
-    // {
-    //   return view('imiona', ['imie' => $imie]);
-    // }
     public function show($id)
     {
       return view('imiona', ['id' => $id]);

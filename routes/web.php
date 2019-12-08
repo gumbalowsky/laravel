@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('post');
 });
+Route::get('/test/', function(){
+  return view('test');
+});
 
 //Route::get('/post/{imie}', ['uses' =>'PostsController@podajimie']);
 

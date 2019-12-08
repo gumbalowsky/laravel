@@ -12,7 +12,6 @@ class PostsController extends Controller
     }
     public function podajimie($imie)
     {
-      $data['imie'] = $imie;
-      return view('imiona', $data);
+      return view('imiona', ['imie' => $imie]);
     }
 }

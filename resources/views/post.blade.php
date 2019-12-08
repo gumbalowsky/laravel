@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/Team-Boxed.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/Highlight-Phone.css')}}">
 @endsection
+@section('title') Phone by our team @endsection
 
 @section('content')
     @extends('layouts.list')

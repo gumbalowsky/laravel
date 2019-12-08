@@ -16,10 +16,10 @@ class PostsController extends Controller
     //   return view('imiona', ['id' => $id]);
     // }
     //
-    // public function showView()
-    // {
-    //   return view('contact');
-    // }
+    public function showView()
+    {
+      return view('contact');
+    }
 
     public function showPost($id)
     {

@@ -9,14 +9,14 @@
 
 .team-boxed h2 {
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 1px;
   padding-top: 40px;
   color: inherit;
 }
 
 @media (max-width:767px) {
   .team-boxed h2 {
-    margin-bottom: 25px;
+    margin-bottom: 1px;
     padding-top: 25px;
     font-size: 24px;
   }
@@ -87,4 +87,3 @@
 .team-boxed .social a:hover {
   opacity: 1;
 }
-

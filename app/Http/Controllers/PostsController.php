@@ -16,6 +16,6 @@ class PostsController extends Controller
     // }
     public function show($id)
     {
-      return "pokazuje " . $id;
+      return echo('pokazuje ' . $id);
     }
 }

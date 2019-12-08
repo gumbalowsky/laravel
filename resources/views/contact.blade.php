@@ -3,9 +3,9 @@
 @section('content')
     <h1>Contact page</h1>
 
-    @if( count($people))
+    @if( count($people) )
     <ul>
-      @foreach($people as person)
+      @foreach($people as $person)
         <li>{{person}}</li>
       @endforeach
     </ul>

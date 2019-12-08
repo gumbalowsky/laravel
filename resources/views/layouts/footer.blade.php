@@ -1,0 +1,1 @@
+<div class="brands"><a href="#"> <img src="{{asset('assets/img/instacart.png')}}"><img src="{{asset('assets/img/kickstarter.png')}}"><img src="{{asset('assets/img/lyft.png')}}"><img src="{{asset('assets/img/shopify.png')}}"><img src="{{asset('assets/img/pinterest.png')}}"><img src="{{asset('assets/img/twitter.png')}}"></a></div>

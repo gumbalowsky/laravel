@@ -8,5 +8,5 @@
 
 @section('content')
     @extends('layouts.list')
-    @extends('ads.iphone')
 @endsection
+@extends('ads.iphone')

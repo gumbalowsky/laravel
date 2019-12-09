@@ -4,27 +4,49 @@
 	@endsection
 	@section ('title') Login form @endsection
 	@section('content')
-		<div class="wrapper fadeInDown">
-		  <div id="formContent">
-			<!-- Tabs Titles -->
-				
-			<!-- Icon -->
-			<div class="fadeIn first">
-			  <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+			<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" name="" class="form-control input_user" value="" placeholder="username">
+						</div>
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input type="password" name="" class="form-control input_pass" value="" placeholder="password">
+						</div>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline">Remember me</label>
+							</div>
+						</div>
+							<div class="d-flex justify-content-center mt-3 login_container">
+				 	<button type="button" name="button" class="btn login_btn">Login</button>
+				   </div>
+					</form>
+				</div>
+		
+				<div class="mt-4">
+					<div class="d-flex justify-content-center links">
+						Don't have an account? <a href="#" class="ml-2">Sign Up</a>
+					</div>
+					<div class="d-flex justify-content-center links">
+						<a href="#">Forgot your password?</a>
+					</div>
+				</div>
 			</div>
-
-			<!-- Login Form -->
-			<form>
-			  <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-			  <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-			  <input type="submit" class="fadeIn fourth" value="Log In">
-			</form>
-
-			<!-- Remind Passowrd -->
-			<div id="formFooter">
-			  <a class="underlineHover" href="#">Forgot Password?</a>
-			</div>
-
-		  </div>
 		</div>
+	</div>
 	@endsection

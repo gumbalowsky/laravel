@@ -43,7 +43,7 @@
 						Don't have an account? <a href="#" class="ml-2">Sign Up</a>
 					</div>
 					<div class="d-flex justify-content-center links">
-						<a href="#">Forgot your password?</a>
+						<a href="#" style="color: white;">Forgot your password?</a>
 					</div>
 				</div>
 			</div>
